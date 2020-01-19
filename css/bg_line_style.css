@@ -90,13 +90,6 @@ figure.texture08{
     top: 100vh;
     font-size: 50px;
 }
-.line_texture .introduce .locaText{
-    display: inline-block;
-    width: 50vw;
-    letter-spacing: 1px;
-    line-height: 80px;
-    top: 123vh;
-}
 
 figure.texture09{
     width: 200px;
@@ -134,7 +127,7 @@ figure.texture13{
     width: 350px;
     height: 350px;
     top: 100vh;
-    left:-370px;
+    left:-300px;
     opacity: 1;
 }
 .introbox{
@@ -302,10 +295,10 @@ figure.texture18{
     .line_texture .introduce{
         position: absolute;
         display: flex;
-        /* border-color: yellowgreen; */
+        transform: scale(.5);
         top: 100vh;
         left: 0;
-        width: 100vw;
+        /* width: 100vw; */
         text-align: center;
         justify-content: center;
     }
@@ -326,9 +319,10 @@ figure.texture18{
         top: 0;
     }
     .line_texture .introduce .locaText{
+        position: absolute;
         transform: rotate(90deg);
         left: -10vw;
-        top: 15vh;
+        top: 150vh;
     }
     .line_texture .introduce .titleText{
         top: 30vh;

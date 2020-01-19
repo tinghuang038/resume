@@ -4,7 +4,7 @@
 .bg_fix{
     position: fixed;
     top: 0;
-    min-width: 273vw;
+    min-width: 300vw;
     height: 100vh;
     /* overflow: hidden; */
   }
@@ -17,7 +17,7 @@
     border: solid 5px white;
     top: 47vh;
     transform: translateY(-50%);
-    left: calc(100vw + 100px);
+    left: calc(100vw + 400px);
     /* right: 0; */
     width: 30vw;
     min-width: 500px;
@@ -183,22 +183,20 @@
     }
   }
 .tiltRange{
-    position: fixed;
+    position: absolute;
     height: 100vh;
     width: 100vw;
-    /* overflow: hidden; */
-    /* margin-top: -10px; */
+    /* border:solid 2px red; */
   }
   .mainLogo{
     /* border: solid red 1px; */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%,-50%) scale(.8);
     width: 530px;
     height: 50vh;
     max-height: 70vh;
-    /* background: url(../img/main-logo-03.svg) center no-repeat; */
   }
   @media screen and (max-width: 980px){
     .mainLogo{
